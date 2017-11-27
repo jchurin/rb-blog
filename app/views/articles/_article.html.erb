@@ -1,0 +1,13 @@
+<div class="col-md-4">
+  <div class="article-box">
+    <div class="header">
+      <%= link_to truncate(article.title, length:55), article, method: :get, class: "text-center" %>
+    </div>
+    <div class="body">
+      <%= Sanitize.fragment(truncate(article.body, length:200), Sanitize::Config::RELAXED).html_safe %>
+    </div>
+    <div class="footer">
+      <%= link_to "Eliminar", article, method: :delete, class: "red"%>
+    </div>
+  </div>
+</div>

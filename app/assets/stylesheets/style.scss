@@ -1,0 +1,137 @@
+html, body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif
+}
+
+textarea {
+  height: 250px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.field, .top-space {
+  margin-top: 1em;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid;
+  outline:none;
+  width: 100%;
+  display: block;
+  padding: 10px 0px;
+  font-size: 1.2em;
+}
+
+.btn {
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  width: 100%;
+  display: block;
+  padding: 10px 0px;
+  font-size: 1.2em;
+  background-color: #0D4D78;
+  color:#EBEBEB;
+  cursor: pointer;
+  text-align: center;
+}
+
+.no-margin {
+  margin: 0px !important
+}
+
+#logo {
+  font-size: 1.2em;
+  color: inherit;
+}
+
+.no-list {
+   list-style-type: none;
+}
+
+h1, h2, h3 {
+  color: #0D4D78;
+}
+
+.be-orange {
+  background-color: #0D4D78;
+}
+
+.be-red {
+  background-color: darkred;
+}
+
+.view-post{
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.white {
+  color: #EBEBEB;
+}
+
+.blue {
+  color: #5849E8;
+}
+
+.dark-blue {
+  color: #150D75;
+}
+
+.red {
+  color: darkred;
+}
+
+.large-padding {
+  padding: 10px 7px
+}
+
+a, a.visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article-box {
+  height: 200px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 1px;
+  color: #EBEBEB;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-size: 150%;
+  padding: 10px;
+  min-height: 60px;
+  border-bottom: 1px solid;
+  position: relative;
+}
+
+.body {
+  font-size: 80%;
+  padding: 10px;
+  border-bottom: 1px solid;
+  min-height: 60px;
+}
+
+.footer {
+  font-size: 80%;
+  padding: 10px;
+  min-height: 80px;
+  text-align: right;
+}
+
+.paginate {
+
+}
+
+.nav-link {
+  font-size: 70%
+}
